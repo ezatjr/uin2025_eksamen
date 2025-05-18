@@ -55,28 +55,39 @@ const Footer = () => {
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Kundestøtte</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#FF7F50] transition-colors">
-                  Kontakt Oss
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#FF7F50] transition-colors">
-                  FAQ
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#FF7F50] transition-colors">
-                  Refusjonspolicy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-300 hover:text-[#FF7F50] transition-colors">
-                  Personvern
-                </a>
-              </li>
-            </ul>
+<ul className="space-y-2">
+  <li>
+    <a href="#" className="text-gray-300 hover:text-[#FF7F50] transition-colors">
+      Kontakt Oss
+    </a>
+  </li>
+  <li>
+    <a href="#" className="text-gray-300 hover:text-[#FF7F50] transition-colors">
+      FAQ
+    </a>
+  </li>
+  <li>
+    <a href="#" className="text-gray-300 hover:text-[#FF7F50] transition-colors">
+      Refusjonspolicy
+    </a>
+  </li>
+  <li>
+    <a href="#" className="text-gray-300 hover:text-[#FF7F50] transition-colors">
+      Personvern
+    </a>
+  </li>
+  <li>
+    <a
+      href="https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-gray-300 hover:text-[#FF7F50] transition-colors"
+    >
+      Ticketmaster Discovery API
+    </a>
+  </li>
+</ul>
+
           </div>
 
           <div>
